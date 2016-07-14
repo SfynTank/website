@@ -1,0 +1,28 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+
+            <div class="row">
+                <div class=col-md-6>
+                    <img class="logo" src="img/logo.png"></img>
+                </div>
+
+                <div class=col-md-6>
+                    <div class="vcenter">
+                        <h1>
+                            {{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">
+                    {{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}
+                </a>
+            </div>
+
+        </div>
+    </div>
+</header>
