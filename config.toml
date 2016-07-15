@@ -12,7 +12,7 @@ theme = "sfynTank"
 	# for more icons. The icons are represented by their corresponding
 	# CSS class.
 
-	# All projects of the portfolio are defined in their own files.
+	# All projects of the challenges are defined in their own files.
 	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
 	# folder into the 'data' directory at the root of this Hugo site.
 	# For more informtion take a look at the README.
@@ -33,7 +33,7 @@ theme = "sfynTank"
 		[params.navigation.links]
 			about     = "About"
 			services  = "Services"
-			portfolio = "Portfolio"
+			challenges = "Portfolio"
 			contact   = "Contact"
 
 
@@ -79,7 +79,10 @@ theme = "sfynTank"
 
 
     # Portfolio modals
-	[params.portfolio.modal]
+	[params.challenges]
+				title= "The tank issues"
+
+	[params.challenges.modal]
         client = "Client"
         date = "Date"
         category = "Category"

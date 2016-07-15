@@ -1,22 +1,36 @@
-<section class="no-padding" id="portfolio">
-    <div class="container-fluid">
+<section class="no-padding" id="challenges">
+    <div class="container">
+
+        <div class="row">
+
+            <h1>
+                {{ .Site.Params.challenges.title }}</h1>
+
+        </div>
         <div class="row no-gutter">
             {{ range .Site.Data.projects }}
-            <div class="col-lg-4 col-sm-6">
-                <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                    <img src="img/portfolio/{{ .img }}" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                {{ .category }}
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#challengesModal{{ .modalID }}" class="challenges-box challenges-link" data-toggle="modal">
+                        <img src="img/challenges/{{ .img }}" class="img-responsive" alt="">
+
+                        <div class="challenges-heading">
+                            <div class="project-number">
+                                <h1>.{{ .modalID }}</h1>
                             </div>
+
                             <div class="project-name">
-                                {{ .title }}
+                                <h1>{{ .title }}</h1>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
+
+                        <div class="challenges-box-caption">
+                            <div class="challenges-box-caption-content">
+
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
             {{ end }}
         </div>
     </div>
