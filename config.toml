@@ -28,7 +28,7 @@ theme = "sfynTank"
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "SFYN TANK"
 
 		[params.navigation.links]
 			about     = "About"
@@ -41,40 +41,41 @@ theme = "sfynTank"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "*an open think to our food system"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "SFYN Tank is an experimental think-tank to our greater Slow Food mechanism; an idea-generation and solution-design based event to influence which social initiatives Slow Food can spearhead within the context of our global food movement."
+
+		description = "With the input of interaction designers, product designers, and food designers, alongside the gastronomic expertise of our Slow Food Youth Network delegates and members, we can innovate solutions to social food problems. Come attend our full-day design workshop on September 24th, 2016 to employ a multidisciplinary approach that encompasses studying, storytelling, and thinking with a critical design eye to solve nine social problems our food system faces--from shifting our idea of meat consumption to considering how to integrate the food culture of migrants. Through open-exchange of expertise, out-of-the-box thinking, and a design approach, we can make meaningful impact on our global food system.  "
+
+		buttonText  = "Think with us. Tank with SFYN."
 
 
 	# Service section
 	[params.services]
 		headline = "At your service"
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+		[[params.services.list]]
+				icon = "fa-heart"
+				title = "What?"
+				description = "Full-day social-design workshop to tackle 9 food issues."
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+    [[params.services.list]]
+        icon = "fa-map-signs"
+        title = "where?"
+        description = "Toolbox office lab and co-working space. Via Egeo 16 Torino"
+
+    [[params.services.list]]
+			icon = "fa-calendar"
+			title = "when?"
+			description = "Saturday, September 24th, Terra Madre e Salone del Gusto 2016"
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+      icon = "fa-group"
+      title = "who?"
+      description = "100+ grassroots food producers from the SFYN network and academic and industry designers"
 
 
     # Portfolio modals
