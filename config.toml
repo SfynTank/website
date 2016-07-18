@@ -32,7 +32,7 @@ theme = "sfynTank"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
+			infos  = "infos"
 			challenges = "Portfolio"
 			contact   = "Contact"
 
@@ -53,26 +53,26 @@ theme = "sfynTank"
 		buttonText  = "Think with us. Tank with SFYN."
 
 
-	# Service section
-	[params.services]
-		headline = "At your service"
+	# info section
+	[params.infos]
+		headline = "All you need to know"
 
-		[[params.services.list]]
+		[[params.infos.list]]
 				icon = "fa-heart"
 				title = "What?"
 				description = "Full-day social-design workshop to tackle 9 food issues."
 
-    [[params.services.list]]
+    [[params.infos.list]]
         icon = "fa-map-signs"
         title = "where?"
         description = "Toolbox office lab and co-working space. Via Egeo 16 Torino"
 
-    [[params.services.list]]
+    [[params.infos.list]]
 			icon = "fa-calendar"
 			title = "when?"
 			description = "Saturday, September 24th, Terra Madre e Salone del Gusto 2016"
 
-		[[params.services.list]]
+		[[params.infos.list]]
       icon = "fa-group"
       title = "who?"
       description = "100+ grassroots food producers from the SFYN network and academic and industry designers"

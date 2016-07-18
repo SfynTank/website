@@ -190,16 +190,16 @@ header .header-content .header-content-inner p {
 .section-heading {
     margin-top: 0;
 }
-.service-box {
+.info-box {
     margin: 50px auto 0;
     max-width: 400px;
 }
 @media(min-width:992px) {
-    .service-box {
+    .info-box {
         margin: 20px auto 0;
     }
 }
-.service-box p {
+.info-box p {
     margin-bottom: 0;
 }
 .challenges-box {
@@ -380,8 +380,8 @@ header .header-content .header-content-inner h1{
   font-weight: 100;
 }
 
-#services{
-  background-color: #a3cd76;
+#info{
+  background-color: #C6E9F4;
 }
 
 
@@ -391,7 +391,7 @@ header .header-content .header-content-inner h1{
   top: 0px;
   font-size: 40px;
   display: inline-flex;
-  z-index: 10000000000000;
+  z-index: 100;
 
 }
 
@@ -411,4 +411,17 @@ header .header-content .header-content-inner h1{
   padding-left: 10px;
   padding-top: 0;
   max-width: 80%;
+}
+
+#footer{
+padding-bottom: 50px;
+}
+
+#footer .logo{
+  max-width: 100%;
+}
+
+
+.modal-body .close{
+  font-size: 60px;
 }
