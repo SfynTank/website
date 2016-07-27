@@ -81,6 +81,8 @@ theme = "sfynTank"
     # Portfolio modals
 	[params.challenges]
 				title= "The tank issues"
+				subtitle= "9 ISSUES 9 TABLES NINETY-NINE PLACES"
+
 
 	[params.challenges.modal]
         client = "Client"
