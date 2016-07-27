@@ -428,3 +428,7 @@ header .header-content .header-content-inner h1 {
     max-width: 99.999% !important;
     max-height: 100% !important;
   }
+
+  #contact{
+    background-color: #fbf179
+  }
