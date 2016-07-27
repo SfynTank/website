@@ -32,8 +32,8 @@ theme = "sfynTank"
 
 		[params.navigation.links]
 			about     = "About"
-			infos  = "infos"
-			challenges = "Portfolio"
+			info  = "Infos"
+			challenges = "Challenges"
 			contact   = "Contact"
 
 

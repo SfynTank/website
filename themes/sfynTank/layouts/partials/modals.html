@@ -14,39 +14,17 @@
                     </button>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src="img/challenges/{{ .img }}" class="img-responsive img-centered" alt="">
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <img src="img/challenges/{{ .img }}.jpg" class="img-responsive img-centered" alt="">
+                    <!-- </div>
+                    <div class="col-lg-8"> -->
                         <h2>{{ .title }}</h2>
                         <hr class="star-primary">
                         <p class="text-faded">{{ .description | markdownify }}</p>
                     </div>
                 </div>
 
-                <div class="row">
-                    <ul class="list-inline item-details">
-                        <li>
-                            {{ with $.Site.Params.challenges.modal.client }}{{.}}{{ end }}:
-                            <strong>
-                                <a href="{{ .clientLink }}">{{ .client }}</a>
-                            </strong>
-                        </li>
-                        <li>
-                            {{ with $.Site.Params.challenges.modal.date }}{{.}}{{ end }}:
-                            <strong>
-                                <a href="#">{{ .date }}</a>
-                            </strong>
-                        </li>
-                        <li>
-                            {{ with $.Site.Params.challenges.modal.category }}{{.}}{{ end }}:
-                            <strong>
-                                <a href="#">{{ .category }}</a>
-                            </strong>
-                        </li>
-                    </ul>
-                </div>
-
+              
             </div>
         </div>
     </div>
