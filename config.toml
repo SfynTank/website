@@ -100,7 +100,6 @@ theme = "sfynTank"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		headline = "Think with us. Tank with SFYN."
+		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
+		buttonText = "REQUEST A PLACE"
