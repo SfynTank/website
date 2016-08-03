@@ -432,3 +432,14 @@ header .header-content .header-content-inner h1 {
   #contact{
     background-color: #fbf179
   }
+
+.social-icn:hover{
+  color:#f05f40 !important;
+  text-decoration:none !important;
+}
+.social-icn h3{
+  visibility: hidden;
+}
+#plug{
+  border-bottom: 3px solid #fbf179;
+}

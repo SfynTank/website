@@ -34,23 +34,23 @@ theme = "sfynTank"
 			about     = "About"
 			info  = "Infos"
 			challenges = "Challenges"
-			contact   = "Contact"
+			contact   = "Join us"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "*an open think to our food system"
+		slogan     = "*Think up solutions to food issues"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "SFYN Tank is an experimental think-tank to our greater Slow Food mechanism; an idea-generation and solution-design based event to influence which social initiatives Slow Food can spearhead within the context of our global food movement."
+		headline    = "Join a free, full day social-design workshop on 9 food issues with some of the most engaging people in grassroots food work and creativity! "
 
 		description = "With the input of interaction designers, product designers, and food designers, alongside the gastronomic expertise of our Slow Food Youth Network delegates and members, we can innovate solutions to social food problems. Come attend our full-day design workshop on September 24th, 2016 to employ a multidisciplinary approach that encompasses studying, storytelling, and thinking with a critical design eye to solve nine social problems our food system faces--from shifting our idea of meat consumption to considering how to integrate the food culture of migrants. Through open-exchange of expertise, out-of-the-box thinking, and a design approach, we can make meaningful impact on our global food system.  "
 
-		buttonText  = "Think with us. Tank with SFYN."
+		buttonText  = "Think with us. Tank with SFYN!"
 
 
 	# info section
@@ -58,30 +58,31 @@ theme = "sfynTank"
 		headline = "All you need to know"
 
 		[[params.infos.list]]
-				icon = "fa-heart"
-				title = "What?"
-				description = "Full-day social-design workshop to tackle 9 food issues."
+				icon = "fa-pencil"
+				title = "what?"
+				description = "Full-day design workshop to tackle 9 food issues"
 
     [[params.infos.list]]
         icon = "fa-map-signs"
         title = "where?"
-        description = "Toolbox office lab and co-working space. Via Egeo 16 Torino"
+        description = "[Toolbox](http://www.toolboxoffice.it) office lab and co-working space. [Via Agostino da Montefeltro 2,Torino](https://www.google.it/maps/place/Toolbox+Coworking/@45.050238,7.6670973,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d37dd5ababd:0x2adc0b0e358ddb6c!8m2!3d45.050238!4d7.669286?hl=en)"
 
     [[params.infos.list]]
 			icon = "fa-calendar"
 			title = "when?"
-			description = "Saturday, September 24th, Terra Madre e Salone del Gusto 2016"
+			description = "Saturday, September 24th, [Terra Madre Salone del Gusto 2016] (http://www.terramadre.info/en/)"
 
 		[[params.infos.list]]
       icon = "fa-group"
       title = "who?"
-      description = "100+ grassroots food producers from the SFYN network and academic and industry designers"
+      description = "99 tankers  | 9 issue coaches | 9 life-line experts"
 
 
     # Portfolio modals
 	[params.challenges]
 				title= "The tank issues"
 				subtitle= "9 ISSUES 9 TABLES NINETY-NINE PLACES"
+				sentence= "*Read through the issues below and request your place at a table."
 
 
 	[params.challenges.modal]
@@ -102,4 +103,70 @@ theme = "sfynTank"
 	[params.contact]
 		headline = "Think with us. Tank with SFYN."
 		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
+		[[params.contact.buttons]]
 		buttonText = "REQUEST A PLACE"
+		buttonLink="https://marianna28.typeform.com/to/jWQtou"
+		[[params.contact.buttons]]
+		buttonText = "JOIN AS VOLUNTEER"
+		buttonLink="https://marianna28.typeform.com/to/mHrflb"
+
+
+		# Plug section
+		[params.plug]
+			headline = "Plug into the Tank"
+			email="info@sfintank.com"
+
+			[[params.plug.social]]
+			social = "facebook"
+			icon=  "fa-facebook"
+			link = "https://www.facebook.com/slowfoodyouthnetwork/?fref=ts"
+			[[params.plug.social]]
+			social = "instagram"
+			icon=  "fa-instagram"
+			link = "https://www.instagram.com/slowfoodyouthnetwork/#/"
+			[[params.plug.social]]
+			social = "twitter"
+			icon=  "fa-twitter"
+			link = "https://twitter.com/sfynetwork?lang=it"
+
+
+		[params.credits]
+
+			[[params.credits.list]]
+			headline= "Orgnanized By"
+
+			[[params.credits.list.partner]]
+				name= "Casa Jasmina"
+				website= "http://casajasmina.arduino.cc"
+				logo= "cj.png"
+
+				[[params.credits.list.partner]]
+				name= "SFYN"
+				website= "???"
+				logo= "sfyn.png"
+
+				[[params.credits.list.partner]]
+				name= "food hub"
+				website= "http://food-hub.org/"
+				logo= "foodHub.png"
+
+			[[params.credits.list]]
+			headline= "Supported By"
+
+				[[params.credits.list.partner]]
+				name= "hivos"
+				website= "https://www.hivos.org/"
+				logo= "hivos.png"
+
+				[[params.credits.list.partner]]
+				name= "Terra Madre Salone del Gusto"
+				website= "http://www.salonedelgusto.com/en/"
+				logo= "terraMadre.png"
+
+				[[params.credits.list]]
+				headline= "Hosted By"
+
+					[[params.credits.list.partner]]
+					name= "toolbox"
+					website= "http://toolboxoffice.it"
+					logo= "toolbox.png"
