@@ -1,4 +1,4 @@
-baseurl = "https://sfyntank.github.io/website/"
+baseurl = "sfyntank.com"
 languageCode = "en-us"
 title = "SFYN TANK"
 theme = "sfynTank"
