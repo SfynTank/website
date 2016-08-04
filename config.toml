@@ -1,4 +1,4 @@
-baseurl = "www.sfyntank.com"
+baseurl = "http://www.sfyntank.com"
 languageCode = "en-us"
 title = "SFYN TANK"
 theme = "sfynTank"
