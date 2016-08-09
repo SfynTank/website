@@ -441,5 +441,6 @@ header .header-content .header-content-inner h1 {
   visibility: hidden;
 }
 #plug{
+  background-color: #fbf179;
   border-bottom: 3px solid #fbf179;
 }
