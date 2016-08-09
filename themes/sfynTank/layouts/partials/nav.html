@@ -15,16 +15,22 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#info">{{ with .Site.Params.navigation.links.info }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}#info">{{ with .Site.Params.navigation.links.info }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#challenges">{{ with .Site.Params.navigation.links.challenges }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}#challenges">{{ with .Site.Params.navigation.links.challenges }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}#program">{{ with .Site.Params.navigation.links.program }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}/faq">{{ with .Site.Params.navigation.links.faq }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{.Site.BaseURL}}#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
                 </li>
             </ul>
         </div>

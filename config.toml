@@ -35,6 +35,8 @@ theme = "sfynTank"
 			info  = "Infos"
 			challenges = "Challenges"
 			contact   = "Join us"
+			program   = "Program"
+			faq = "F.A.Q."
 
 
 	# Hero section
@@ -46,9 +48,9 @@ theme = "sfynTank"
 
 	# About section
 	[params.about]
-		headline    = "Join a free, full day social-design workshop on 9 food issues with some of the most engaging people in grassroots food work and creativity! "
+		headline    = "Join a free, full day social-design workshop on 9 food issues with some of the most engaging people in grassroots food work and creativity!"
 
-		description = "With the input of interaction designers, product designers, and food designers, alongside the gastronomic expertise of our Slow Food Youth Network delegates and members, we can innovate solutions to social food problems. Come attend our full-day design workshop on September 24th, 2016 to employ a multidisciplinary approach that encompasses studying, storytelling, and thinking with a critical design eye to solve nine social problems our food system faces--from shifting our idea of meat consumption to considering how to integrate the food culture of migrants. Through open-exchange of expertise, out-of-the-box thinking, and a design approach, we can make meaningful impact on our global food system.  "
+		description = "Innovate solutions to social food problems! With the input of creatives--including interaction and product designers--alongside grassroots, gastronomic experts within the Slow Food Youth Network, you can impact future food initiatives! SFYN Tank is an experimental event aimed at squaring open-exchange of expertise at the center of food activism. Aimed at anyone in grassroots food work or creative sectors, we hope to engage food enthusiasts in collective problem-solving through design-thinking. Come attend our full day social-design workshop on September 24th, 2016 to employ a multidisciplinary approach that encompasses research, storytelling, idea-generation, and prototyping with a critical design eye to solve nine social problems our food system faces–from shifting our idea of seafood consumption to democratizing food communication. Through open-exchange of expertise, out-of-the-box thinking, and a design approach, we truly can make meaningful impact on our global food system."
 
 		buttonText  = "Think with us. Tank with SFYN!"
 
@@ -65,12 +67,12 @@ theme = "sfynTank"
     [[params.infos.list]]
         icon = "fa-map-signs"
         title = "where?"
-        description = "[Toolbox](http://www.toolboxoffice.it) office lab and co-working space. [Via Agostino da Montefeltro 2,Torino](https://www.google.it/maps/place/Toolbox+Coworking/@45.050238,7.6670973,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d37dd5ababd:0x2adc0b0e358ddb6c!8m2!3d45.050238!4d7.669286?hl=en)"
+        description = "<a href='http://www.toolboxoffice.it' target='_blank'>Toolbox</a> office lab and co-working space. <a href='https://www.google.it/maps/place/Toolbox+Coworking/@45.050238,7.6670973,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d37dd5ababd:0x2adc0b0e358ddb6c!8m2!3d45.050238!4d7.669286?hl=en' target='_blank'>Via Agostino da Montefeltro 2,Torino</a>"
 
     [[params.infos.list]]
 			icon = "fa-calendar"
 			title = "when?"
-			description = "Saturday, September 24th, [Terra Madre Salone del Gusto 2016] (http://www.terramadre.info/en/)"
+			description = "Saturday, September 24th, <a href='http://www.terramadre.info/en/' target='_blank'>Terra Madre Salone del Gusto 2016</a>"
 
 		[[params.infos.list]]
       icon = "fa-group"
