@@ -153,9 +153,16 @@ theme = "sfynTank"
 				logo= "sfyn.png"
 
 				[[params.credits.list.partner]]
+				name= "yfm"
+				website= "http://youthfoodmovement.nl/"
+				logo= "yfm.png"
+				
+				[[params.credits.list.partner]]
 				name= "food hub"
 				website= "http://food-hub.org/"
 				logo= "foodHub.png"
+
+
 
 			[[params.credits.list]]
 			headline= "Supported By"
