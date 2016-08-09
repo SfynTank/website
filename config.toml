@@ -34,9 +34,10 @@ theme = "sfynTank"
 			about     = "About"
 			info  = "Infos"
 			challenges = "Challenges"
-			contact   = "Join us"
+			contact   = "Request a place"
 			program   = "Program"
 			faq = "F.A.Q."
+			volunteers ="volunteers!"
 
 
 	# Hero section
@@ -106,17 +107,21 @@ theme = "sfynTank"
 		headline = "Think with us. Tank with SFYN."
 		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
 		[[params.contact.buttons]]
-		buttonText = "REQUEST A PLACE"
+		buttonText = "JOIN US"
 		buttonLink="https://marianna28.typeform.com/to/jWQtou"
-		[[params.contact.buttons]]
-		buttonText = "JOIN AS VOLUNTEER"
-		buttonLink="https://marianna28.typeform.com/to/mHrflb"
 
+		# Contact section
+		[params.volunteers]
+			headline = "VOLUNTEER!"
+			description = "Sign up to be apart of the behind-the-scenes production! </br> We’re looking for people to be available Friday, September 23rd and Saturday, September 24th to help with things like:<ul><li>physical set-up and breakdown</li><li>registration</li><li>refreshments and food distribution</li><li>design-tools help</li><li>sound and stage production</li><li>and general friendly-folk willing to be part of our team!<ul>"
+			[[params.volunteers.buttons]]
+			buttonText = "SIGN UP"
+			buttonLink= "https://docs.google.com/forms/d/1bWohAFL7OkXVIM6kJ_vVofkajS4OXBHzp63wUt2xdb0/edit?usp=sharing"
 
 		# Plug section
 		[params.plug]
 			headline = "Plug into the Tank"
-			email="info@sfintank.com"
+			email="info@sfyntank.com"
 
 			[[params.plug.social]]
 			social = "facebook"

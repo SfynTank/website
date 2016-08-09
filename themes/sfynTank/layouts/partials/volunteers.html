@@ -1,0 +1,27 @@
+{{ "<!-- volunteers -->" | safeHTML }}
+<section id="volunteers">
+    <div class="container">
+        <div class="col-md-6">
+            <div class="row ">
+                <h2 class="section-heading text-center">
+                    {{ with .Site.Params.volunteers.headline }}{{ . }}{{ end }}
+                </h2>
+                <hr class="primary">
+                <p>
+                    {{ with .Site.Params.volunteers.description }}{{ . | markdownify }}{{ end }}
+                </p>
+            </div>
+
+            <div class="row text-center">
+                {{range .Site.Params.volunteers.buttons}}
+                    <a target="_blank" href="{{.buttonLink }}" class="btn btn-primary btn-xl page-scroll">
+                        {{.buttonText }}
+                    </a>
+                {{end}}
+            </div>
+        </div>
+        <div class="col-md-6">
+          <img src="{{ .Site.BaseURL }}img/papaveri.jpg" class="image">
+        </div>
+    </div>
+</section>
