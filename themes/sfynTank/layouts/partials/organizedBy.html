@@ -1,0 +1,35 @@
+<section class="no-padding" id="people">
+    <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2>{{ .Site.Params.people.title }}</h2>
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+
+        <div class="row">
+            {{ range .Site.Data.people }}
+                <div class="col-lg-3 col-sm-6">
+                    <div class="people people-box people-link" data-toggle="modal">
+                        <img src="img/people/{{ .img }}.jpg" class="img-responsive" alt="">
+
+                        <div class="people-heading text-center">
+                                <h5>{{ .name }}</h5>
+                        </div>
+
+                        <div class="people-box-caption">
+                            <div class="people-box-caption-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+      </div>
+
+
+
+    </div>
+</section>

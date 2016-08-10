@@ -37,7 +37,7 @@ theme = "sfynTank"
 			contact   = "Request a place"
 			program   = "Program"
 			faq = "F.A.Q."
-			volunteers ="volunteers!"
+			volunteers ="volunteer!"
 
 
 	# Hero section
@@ -63,7 +63,7 @@ theme = "sfynTank"
 		[[params.infos.list]]
 				icon = "fa-pencil"
 				title = "what?"
-				description = "Full-day design workshop to tackle 9 food issues"
+				description = "Full day social-design workshop to tackle 9 food issues"
 
     [[params.infos.list]]
         icon = "fa-map-signs"
@@ -73,7 +73,7 @@ theme = "sfynTank"
     [[params.infos.list]]
 			icon = "fa-calendar"
 			title = "when?"
-			description = "Saturday, September 24th, <a href='http://www.terramadre.info/en/' target='_blank'>Terra Madre Salone del Gusto 2016</a>"
+			description = "Saturday, September 24th, <a href='http://www.salonedelgusto.com/en/' target='_blank'>Terra Madre Salone del Gusto 2016</a> 9am - 6pm"
 
 		[[params.infos.list]]
       icon = "fa-group"
@@ -86,6 +86,12 @@ theme = "sfynTank"
 				title= "The tank issues"
 				subtitle= "9 ISSUES 9 TABLES NINETY-NINE PLACES"
 				sentence= "*Read through the issues below and request your place at a table."
+
+
+				[params.people]
+							title= "behind the scene"
+
+
 
 
 	[params.challenges.modal]
@@ -108,7 +114,7 @@ theme = "sfynTank"
 		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
 		[[params.contact.buttons]]
 		buttonText = "JOIN US"
-		buttonLink="https://marianna28.typeform.com/to/jWQtou"
+		buttonLink="https://docs.google.com/a/arduino.cc/forms/d/1m3hB84iDwzbaKkmSqrPDxDmb0OU70Uz81375pTrs_vw/edit"
 
 		# Contact section
 		[params.volunteers]
@@ -120,7 +126,7 @@ theme = "sfynTank"
 
 		# Plug section
 		[params.plug]
-			headline = "Plug into the Tank"
+			headline = "Plug into the Tank!"
 			email="info@sfyntank.com"
 
 			[[params.plug.social]]
@@ -140,7 +146,7 @@ theme = "sfynTank"
 		[params.credits]
 
 			[[params.credits.list]]
-			headline= "Orgnanized By"
+			headline= "Organized by"
 
 			[[params.credits.list.partner]]
 				name= "Casa Jasmina"
@@ -156,7 +162,7 @@ theme = "sfynTank"
 				name= "yfm"
 				website= "http://youthfoodmovement.nl/"
 				logo= "yfm.png"
-				
+
 				[[params.credits.list.partner]]
 				name= "food hub"
 				website= "http://food-hub.org/"
