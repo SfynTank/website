@@ -444,3 +444,28 @@ header .header-content .header-content-inner h1 {
   background-color: #fbf179;
   border-bottom: 3px solid #fbf179;
 }
+
+.people-box img{
+   border: 5px solid #C6E9F4;
+
+-webkit-border-radius: 200px;
+-moz-border-radius: 200px;
+border-radius: 200px;
+
+max-width: 100%;
+height: auto;
+display:block;
+
+}
+.people-box{
+padding: 10px;
+}
+
+#people{
+  border-bottom: 3px solid #fbf179;
+
+}
+
+people-heading{
+  
+}
