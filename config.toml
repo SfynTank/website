@@ -89,7 +89,7 @@ theme = "sfynTank"
 
 
 				[params.people]
-							title= "behind the scene"
+							title= "Behind the Scenes"
 
 
 
@@ -114,7 +114,7 @@ theme = "sfynTank"
 		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
 		[[params.contact.buttons]]
 		buttonText = "JOIN US"
-		buttonLink="https://docs.google.com/a/arduino.cc/forms/d/1m3hB84iDwzbaKkmSqrPDxDmb0OU70Uz81375pTrs_vw/edit"
+		buttonLink="https://docs.google.com/a/arduino.cc/forms/d/1m3hB84iDwzbaKkmSqrPDxDmb0OU70Uz81375pTrs_vw"
 
 		# Contact section
 		[params.volunteers]
@@ -122,7 +122,7 @@ theme = "sfynTank"
 			description = "Sign up to be apart of the behind-the-scenes production! </br> We’re looking for people to be available Friday, September 23rd and Saturday, September 24th to help with things like:<ul><li>physical set-up and breakdown</li><li>registration</li><li>refreshments and food distribution</li><li>design-tools help</li><li>sound and stage production</li><li>and general friendly-folk willing to be part of our team!<ul>"
 			[[params.volunteers.buttons]]
 			buttonText = "SIGN UP"
-			buttonLink= "https://docs.google.com/forms/d/1bWohAFL7OkXVIM6kJ_vVofkajS4OXBHzp63wUt2xdb0/edit?usp=sharing"
+			buttonLink= "https://docs.google.com/forms/d/1bWohAFL7OkXVIM6kJ_vVofkajS4OXBHzp63wUt2xdb0"
 
 		# Plug section
 		[params.plug]
@@ -155,13 +155,8 @@ theme = "sfynTank"
 
 				[[params.credits.list.partner]]
 				name= "SFYN"
-				website= "???"
+				website= "http://www.slowfoodyouthnetwork.org"
 				logo= "sfyn.png"
-
-				[[params.credits.list.partner]]
-				name= "yfm"
-				website= "http://youthfoodmovement.nl/"
-				logo= "yfm.png"
 
 				[[params.credits.list.partner]]
 				name= "food hub"
