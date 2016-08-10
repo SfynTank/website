@@ -68,12 +68,12 @@ theme = "sfynTank"
     [[params.infos.list]]
         icon = "fa-map-signs"
         title = "where?"
-        description = "<a href='http://www.toolboxoffice.it' target='_blank'>Toolbox</a> office lab and co-working space. <a href='https://www.google.it/maps/place/Toolbox+Coworking/@45.050238,7.6670973,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d37dd5ababd:0x2adc0b0e358ddb6c!8m2!3d45.050238!4d7.669286?hl=en' target='_blank'>Via Agostino da Montefeltro 2,Torino</a>"
+        description = "<a href='http://www.toolboxoffice.it' target='_blank'>Toolbox</a> coworking. <a href='https://www.google.it/maps/place/Toolbox+Coworking/@45.050238,7.6670973,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d37dd5ababd:0x2adc0b0e358ddb6c!8m2!3d45.050238!4d7.669286?hl=en' target='_blank'>Via Agostino da Montefeltro 2,Torino</a>"
 
     [[params.infos.list]]
 			icon = "fa-calendar"
 			title = "when?"
-			description = "Saturday, September 24th, <a href='http://www.salonedelgusto.com/en/' target='_blank'>Terra Madre Salone del Gusto 2016</a> 9am - 6pm"
+			description = "Saturday, September 24th, <a href='http://www.salonedelgusto.com/en/' target='_blank'>Terra Madre Salone del Gusto 2016</a> </br>9am - 6pm"
 
 		[[params.infos.list]]
       icon = "fa-group"
@@ -83,7 +83,7 @@ theme = "sfynTank"
 
     # Portfolio modals
 	[params.challenges]
-				title= "The tank issues"
+				title= "The Tank Issues"
 				subtitle= "9 ISSUES 9 TABLES NINETY-NINE PLACES"
 				sentence= "*Read through the issues below and request your place at a table."
 
@@ -110,7 +110,7 @@ theme = "sfynTank"
 
 	# Contact section
 	[params.contact]
-		headline = "Think with us. Tank with SFYN."
+		headline = "Think with us. Tank with SFYN!"
 		description = "Join a full-day brainstorm and solution-development workshop on 9 food issues with some of the most interesting people in grassroots food production and design!"
 		[[params.contact.buttons]]
 		buttonText = "JOIN US"
